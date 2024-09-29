@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
@@ -23,7 +23,6 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
         </Routes>
       </div>
-      <HomePage/>
       <Footer/>
     </Router>
   );
